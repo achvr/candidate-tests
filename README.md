@@ -7,7 +7,7 @@ to start with one called CrazyDiv but will add more soon.
 
 ## What do I need to do?
 
-Clone this repo into a branch.  Add your work, commit, push.  We'll get a notice automatically.
+Clone this repo.  Add your work, commit, push.  Open a pull request.
 
 ## CrazyDiv
 
