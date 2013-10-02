@@ -2,8 +2,7 @@
 
 ## What is this?
 
-These will be little exercises we can give potential candidates.  We're going
-to start with one called CrazyDiv but will add more soon.
+These will be little exercises we can give potential candidates.
 
 ## What do I need to do?
 
