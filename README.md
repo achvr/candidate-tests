@@ -17,13 +17,14 @@ The idea with CrazyDiv is to test the candidate's ability to deal with "real wor
 
 Skool is a simple Rails 4 application that models students, teachers, and courses.  Teachers have courses.  Students are enrolled in courses.  That's pretty much it.  Review the schema defined in schema.rb and the seed data in seeds.rb.  Fill in the missing model associations so the following questions can easily be answered via the Rails console.
 
-1. What are the course codes for student 129262?  i.e., Student.find_by!(:sid => '129262').courses.collect(&:course_code)
+1. What are the course codes for student 129262?  i.e., `Student.find_by!(:sid => '129262').courses.collect(&:course_code)`
 2. Who is the teacher for course L001?
 3. What are the course names for teacher 421000?
 4. What are the names of the teachers for student 112077?
 5. Who is the youngest student in course R002?
 
-Requirements:
+###### Requirements:
+
 1. Implement one-line examples answering the questions above.  The first one is done for you.
 2. Destroying a student should unenroll them from courses.
 3. Destroying a teacher should also destroy their courses and all enrollments for those courses.
@@ -36,7 +37,8 @@ Students can have the same teacher for more than one of their courses, and vice 
 Bonus:
 If you find this exercise takes less than an hour, please also add some useful validations to the model classes.
 
-Setup (assumes model associations have been correctly added):
+###### Setup (assumes model associations have been correctly added):
+
     cd skool
     bundle
     rake db:create
