@@ -44,3 +44,11 @@ If you find this exercise takes less than an hour, please also add some useful v
     rake db:migrate
     rake db:seed
     rails c
+
+## S3Camera
+
+Build a simple iOS app that allows the user to bring up the camera, take a photo, preview that photo, and then upload the file to S3.  The S3 config information (including destination bucket, access key, and secret key) can be hardcoded into the app.
+
+Bonus:
+If you find this exercise takes less than an hour, please add UI polish to the app.
+
